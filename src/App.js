@@ -19,15 +19,14 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="honey" element={<Honey />} />
-          <Route path="coffee" element={<Coffee />} />
+          <Route path="/Menu/honey" element={<Honey />} />
+          <Route path="/Menu/coffee" element={<Coffee />} />
           <Route path="about" element={<About />} />
           <Route path="menu" element={<Menu />} />
           <Route path="whychooseus" element={<Whychooseus />} />
           {/* Uncomment the following route if you have NotFound component */}
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   );

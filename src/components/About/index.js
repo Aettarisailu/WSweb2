@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer';
 import './index.css'
 
 const About = () => {
@@ -34,6 +35,7 @@ const About = () => {
             <p className="about-description">Our mission is to be a trustworthy and innovative global leader in the provision of real organic goods 
                 for healthy living.</p>
             </div>
+            <Footer/>
         </div>
     );
 };

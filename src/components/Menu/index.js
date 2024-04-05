@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+// import Footer from '../Footer';
 import './index.css'; // Update the import statement to reflect the correct path to your CSS file
 
 const Menu = () => {
@@ -25,7 +26,7 @@ const Menu = () => {
                                 <div class="text-container2">
                                     <h1 class="menu-card-title2">Honey</h1>
                                     <p class="menu-card-description2">Whether you're a fan of rich and bold espresso, smooth and creamy lattes, or indulgent mochas, we have something to satisfy every coffee lover's palate. Our skilled baristas are dedicated to crafting each cup with precision and care, ensuring that every sip is a delight.</p>
-                                    <Link to='honey'><button className="buy-now">View All<div className='shape'></div> </button></Link>
+                                    <Link to='/Menu/honey'><button className="buy-now">View All<div className='shape'></div> </button></Link>
                                     <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         fill-rule="evenodd"
@@ -47,7 +48,7 @@ const Menu = () => {
                                 <div class="text-container">
                                     <h1 class="menu-card-title">Coffee</h1>
                                     <p class="menu-card-description2">Whether you're a fan of rich and bold espresso, smooth and creamy lattes, or indulgent mochas, we have something to satisfy every coffee lover's palate. Our skilled baristas are dedicated to crafting each cup with precision and care, ensuring that every sip is a delight.</p>
-                                    <Link to='Coffee'><button className="buy-now">View All<div className='shape'></div> </button></Link>
+                                    <Link to='/Menu/Coffee'><button className="buy-now">View All<div className='shape'></div> </button></Link>
                                     <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         fill-rule="evenodd"
@@ -58,9 +59,8 @@ const Menu = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                
             </div>
-          
         </>
     )
 }

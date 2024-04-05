@@ -1,5 +1,5 @@
 import './index.css'
-
+// import Footer from '../Footer';
 const Whychooseus = () =>{
     return(
         <>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from '../Footer';
 import './index.css';
 
 const Product = ({ imageSrc, name, title, description, price }) => {
@@ -36,7 +37,7 @@ const Products = () => {
 
   return (
     <div className="explore-menu-section2 pt-5 pb-5" id="exploreMenuSection">
-      <div className="container">
+      <div className="container mb-5">
       <div>
         <div className="row">
           <div className="col-12">
@@ -117,6 +118,7 @@ const Products = () => {
         </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
