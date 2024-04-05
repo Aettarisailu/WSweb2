@@ -1,0 +1,73 @@
+/* index.css */
+.menu-section-heading {
+    text-align: center;
+  }
+  
+  .menu-item-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .menu-item-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .menu-card-name{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .menu-card-title {
+    font-size: 18px;
+  }
+  
+  .menu-card-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .explore-menu-section2 {
+    background-color: #f9f9f9;
+    height: 100vh;
+    margin-top: 105px;
+    padding: 20px 0;
+  }
+
+  .containerhash{
+    margin-top: 100px;
+  }
+  
+  .shape {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+  }
+  /* Add this CSS to your existing index.css file or create a new CSS file */
+
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff6600; /* Adjust the color to your preference */
+}

@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.Borgani-logo {
+  width: 85px;
+  height: 85px;
+}
+#navItem1 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem2 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem3 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem4 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+.banner-section-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+  height: 100vh;
+  background-size: cover;
+}
+.carousel-inner{
+    height: 40vh;
+}
+.banner-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 300;
+}
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+}
+.custom-button {
+  color: white;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.custom-outline-button {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+}
+/* .wcu-section {
+  background-color: #8fb9f7;
+} */
+.wcu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.wcu-section-description {
+  color: #183b56;
+  font-family: "bold";
+  font-size: 20px;
+}
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+.wcu-card-image {
+  width: 87px;
+  height: 90px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+.container-bg{
+    background-color: #937300;
+}
+.explore-menu-section {
+  background-image:linear-gradient(#dbdbdb,#bcbcbc, #874587);
+}
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.menu-item-image {
+  border-radius: 16px;
+}
+.menu-card-title, .menu-card-title2 {
+  color: #f9f9f9;
+  font-family: cursive;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.menu-card-description2{
+    color: white;
+}
+.menu-card-description{
+    color: white;
+}
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.menu-item-card {
+    background-color: #f9fbfe;
+    border-radius: 16px;
+}
+.healthy-food-section {
+  background-color: #f9fbfe;
+}
+.healthy-food-section-img {
+  width: 270px;
+}
+.healthy-food-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.healthy-food-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.delivery-and-payment-section {
+  background-color: white;
+}
+.delivery-and-payment-section-img {
+  width: 270px;
+}
+.delivery-and-payment-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.delivery-and-payment-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+}
+.thanking-customers-section {
+  background-image: radial-gradient(#fff8db, #fae38c);
+}
+.thanking-customers-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.thanking-customers-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.thanking-customers-section-img {
+  width: 270px;
+  margin-bottom: 20px;
+}
+.thanking-customers-section-modal-title {
+  color: #d0b200;
+  font-weight: 800;
+}
+.follow-us-section {
+  background-color: white;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+.footer-section {
+  background-color: #0d2436;
+}
+.footer-section-mail-id {
+  color: #959ead;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.coffee-container{
+    /* background-image:linear-gradient(#005d82, #fbff00); */
+    background-image: url('https://res.cloudinary.com/drevfgyks/image/upload/v1712300029/beans-coffee-black-ice-cream-cones-with-copy-space_fqyemb.jpg');
+    margin: 12px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.honey-container2{
+    background-image:linear-gradient(#030800d8, #756c01);
+    /* background-image: url('https://res.cloudinary.com/drevfgyks/image/upload/v1712298472/Screenshot_2024-04-05_115729_wuwkiy.png'); */
+    margin: 12px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+@media screen and (max-width:768px) {
+    .honey-container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .coffee-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.text-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-now{
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;    
+    background: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    box-shadow: 0 13px 27px 0 rgb(177, 177, 177);
+    text-transform: uppercase;
+    transition: .5s;
+    overflow: hidden;   
+
+}
+.shape{
+    top: 0;
+    position: absolute;
+    background: white;
+    width: 30px;
+    height: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    transform: translateX(-170%);
+}
+.buy-now:hover .shape{
+    transform: translateX(400%);
+    transition: transform 0.5s;
+}
+.buy-now:hover{
+    background: #ffe100;
+    scale: 1.5s;
+    transition: all 0.5s;
+    color: black;
+}
+.Industry{
+    color: #000000;
+    font-family:'Roboto';
+}
+.food-munch-logo{
+    width: 80px;
+}
+
+
+@media (max-width: 991.98px) {
+    /* Apply styles for screens smaller than or equal to 991.98px */
+    .navbar-expand-lg .navbar-collapse {
+      background-color: rgba(255,255,255,0.9); /* Change background color */
+    }
+    .navbar-nav {
+      margin-left: auto; /* Move navbar items to right */
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    /* Apply styles for screens smaller than or equal to 767.98px */
+    .navbar-brand img {
+      width: 60px; /* Reduce navbar brand image size */
+      height: 60px;
+    }
+    .navbar-toggler {
+      border-color: #000; /* Change color of navbar toggler icon */
+    }
+    .navbar-nav {
+      background-color: rgba(255,255,255,0.9); /* Change background color of navbar items */
+      width: 100%; /* Make navbar items take full width */
+      justify-content: center; /* Align navbar items to center */
+      padding-top: 10px; /* Add padding to top */
+    }
+    .navbar-nav .nav-link {
+      padding: 10px 20px; /* Adjust padding of navbar links */
+      margin: 5px; /* Add margin between navbar links */
+      border-radius: 5px; /* Add border radius to navbar links */
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    /* Apply styles for screens smaller than or equal to 575.98px */
+    .navbar-brand img {
+      width: 50px; /* Further reduce navbar brand image size */
+      height: 50px;
+    }
+    .navbar-nav .nav-link {
+      padding: 8px 16px; /* Further adjust padding of navbar links */
+    }
+  }
+  

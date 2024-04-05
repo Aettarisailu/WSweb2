@@ -1,0 +1,73 @@
+/* index.css */
+.menu-section-heading {
+    text-align: center;
+  }
+  
+  .menu-item-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .menu-item-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .menu-card-title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .menu-card-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .explore-menu-section2 {
+    background-color: #f9f9f9;
+    height: 100vh;
+    margin-top: 105px;
+    padding: 20px 0;
+  }
+  
+  .shape {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+  }
+  
+  /* index.css */
+
+/* Existing styles... */
+
+.buy-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .buy-button:hover {
+    background-color: #218838;
+  }
+  
