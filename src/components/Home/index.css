@@ -323,47 +323,23 @@
     width: 80px;
 }
 
+/* Small (Size >= 576px) */
+@media (min-width: 576px) {
+    /* #carouselExampleIndicators{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    } */
+}
 
-@media (max-width: 991.98px) {
-    /* Apply styles for screens smaller than or equal to 991.98px */
-    .navbar-expand-lg .navbar-collapse {
-      background-color: rgba(255,255,255,0.9); /* Change background color */
-    }
-    .navbar-nav {
-      margin-left: auto; /* Move navbar items to right */
-    }
-  }
-  
-  @media (max-width: 767.98px) {
-    /* Apply styles for screens smaller than or equal to 767.98px */
-    .navbar-brand img {
-      width: 60px; /* Reduce navbar brand image size */
-      height: 60px;
-    }
-    .navbar-toggler {
-      border-color: #000; /* Change color of navbar toggler icon */
-    }
-    .navbar-nav {
-      background-color: rgba(255,255,255,0.9); /* Change background color of navbar items */
-      width: 100%; /* Make navbar items take full width */
-      justify-content: center; /* Align navbar items to center */
-      padding-top: 10px; /* Add padding to top */
-    }
-    .navbar-nav .nav-link {
-      padding: 10px 20px; /* Adjust padding of navbar links */
-      margin: 5px; /* Add margin between navbar links */
-      border-radius: 5px; /* Add border radius to navbar links */
-    }
-  }
-  
-  @media (max-width: 575.98px) {
-    /* Apply styles for screens smaller than or equal to 575.98px */
-    .navbar-brand img {
-      width: 50px; /* Further reduce navbar brand image size */
-      height: 50px;
-    }
-    .navbar-nav .nav-link {
-      padding: 8px 16px; /* Further adjust padding of navbar links */
-    }
-  }
-  
+/* Medium (Size >= 768px) */
+@media (min-width: 768px) {
+  /* #carouselExampleIndicators{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; */
+}

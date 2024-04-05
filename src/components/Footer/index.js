@@ -7,17 +7,7 @@ import './index.css'
 const Footer = () =>{
     return(
         <div>
-            <div class="footer-section pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="footer-section-mail-id">Growing Greener Cities,</h1>
-                    <h1 class="footer-section-mail-id">Nurturing Healthier Lives-</h1>
-                    <h1 class="footer-section-mail-id">B organics Farm Care, Your</h1>
-                    <h1 class="footer-section-mail-id">Sustainable Farming Guides.</h1>
-                </div>
-                </div>
-            </div>
+            <div class="footer-section pt-5 pb-5">            
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -34,20 +24,20 @@ const Footer = () =>{
                 <div class="row">
                 <div class="col-12 text-center">                    
                     <Link to='About'><h1 class="footer-section-mail-id">About</h1></Link>
-                    <Link to='Menu' ><p className="footer-section-mail-id">Explore Menu</p></Link>
+                    <Link to='/Menu/coffee/honey' ><p className="footer-section-mail-id">Explore Menu</p></Link>
                     <Link to='whychooseus' ><p className="footer-section-mail-id">Why Choose Us?</p></Link>                    
                 </div>
                 </div>
             </div>
-            <div class="footer-app-containe">
+            {/* <div class="footer-app-containe">
                 <div class="row" className='footer-app-container'>
                     <div class="col-12 text-center" className='getintouch'>
                         <h1 class="footer-section-heading">Get In Touch</h1>
                         <h1 class="footer-section-mail-id"></h1>
-                    </div>
+                    </div> */}
                     {/* /*Follow us*/ }
 
-                    <div className="footer-container">
+                    {/* <div className="footer-container">
                         <div className='socialMedia-container'>
                             <div className='socialMedia'>
                                 <FontAwesomeIcon icon={faGlobe} />
@@ -74,10 +64,10 @@ const Footer = () =>{
                                 <p className='sosocialMedia-title'>info@borganics.in</p>
                             </div>
                         </div>                                                
-                    </div>                  
+                    </div>                   */}
                     {/* end follow */}
-                </div>                                     
-            </div>
+                {/* </div>                                     
+            </div> */}
             </div>
             <p className='Copyright-container'>Copyrights received © 2024 Borganic.</p>    
         </div>
