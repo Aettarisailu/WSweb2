@@ -29,10 +29,12 @@
   padding-top: 100px;
 }
 .carousel-inner{
-    height: 40vh;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 .carousel-item{
-  height:100vh;
+  height: 40vh;
+  width: 100%;
 }
 .banner-heading {
   color: white;
@@ -111,7 +113,7 @@
     background-color: #937300;
 }
 .explore-menu-sectionhome {
-  background-image:linear-gradient(#dbdbdb,#bcbcbc, #874587);
+  background-image:linear-gradient(#ffffff,#ffd00170, #874587);
   padding-top: 50px;
 }
 .menu-section-heading {
@@ -233,16 +235,6 @@
   font-size: 35px;
 }
 
-.coffee-container{
-    /* background-image:linear-gradient(#005d82, #fbff00); */
-    background-image: url('https://res.cloudinary.com/drevfgyks/image/upload/v1712300029/beans-coffee-black-ice-cream-cones-with-copy-space_fqyemb.jpg');
-    margin: 12px;
-    padding: 25px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 8px;
-}
 .text-container{
     display: flex;
     flex-direction: column;
@@ -250,16 +242,6 @@
     align-items: center;
 }
 
-.honey-container2{
-    background-image:linear-gradient(#030800d8, #756c01);
-    /* background-image: url('https://res.cloudinary.com/drevfgyks/image/upload/v1712298472/Screenshot_2024-04-05_115729_wuwkiy.png'); */
-    margin: 12px;
-    padding: 25px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 8px;
-}
 @media screen and (max-width:768px) {
     .honey-container2{
         display: flex;
@@ -281,7 +263,7 @@
     align-items: center;
 }
 
-.buy-now{
+/* .buy-now{
     position: relative;
     padding: 10px 20px;
     border-radius: 5px;
@@ -314,7 +296,7 @@
     scale: 1.5s;
     transition: all 0.5s;
     color: black;
-}
+} */
 .Industry{
     color: #000000;
     font-family:'Roboto';
@@ -342,4 +324,7 @@
     justify-content: center;
     align-items: center;
     width: 100%; */
+}
+.Menuview-container{
+  margin-top: 250px;
 }

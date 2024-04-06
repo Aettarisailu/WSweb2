@@ -6,16 +6,19 @@ import './index.css'; // Update the import statement to reflect the correct path
 const Menu = () => {
     return(
         <>
-            <div className="explore-menu-section mt-5 pt-5 pb-5" id="exploreMenuSection">      
-                <div class="container">
+            <div className="explore-menu-section pb-5" id="exploreMenuSection">      
+                <div class="container mt-5 pt-5 ">                    
                     <div class="row">
+                        {/*Container-1*/}                        
                         <div class="col-12">
                             <h1 class="menu-section-heading">Explore Menu</h1>
-                        </div>
-                        <div class='d-flex flex-column'>                
+                        </div>                       
+                        
+                        <div class='d-flex flex-column'>
+                            {/*Container-2*/}             
                             <div class="honey-container2">
                                 <div class="col-12 col-md-3 col-lg-3">
-                                    <div class="menu-item-card shadow p-3 mb-3">
+                                    <div class="menu-item-card shadow col-12">
                                         <img
                                             src="https://res.cloudinary.com/drevfgyks/image/upload/v1712293568/Screenshot_2024-03-17_164011_vjky4j.png"
                                             class="menu-item-image w-100"
@@ -23,9 +26,9 @@ const Menu = () => {
                                         />              
                                     </div>
                                 </div>
-                                <div class="text-container2">
+                                <div class="text-container2 col-8">
                                     <h1 class="menu-card-title2">Honey</h1>
-                                    <p class="menu-card-description2">Whether you're a fan of rich and bold espresso, smooth and creamy lattes, or indulgent mochas, we have something to satisfy every coffee lover's palate. Our skilled baristas are dedicated to crafting each cup with precision and care, ensuring that every sip is a delight.</p>
+                                    <p class="menu-card-description2">Rich in Nutrients: Pure honey contains several beneficial nutrients, including antioxidants, vitamins, and minerals. These nutrients can support overall health and well-being. Pure honey has a long shelf life and does not spoil easily. It can be stored at room temperature in a tightly sealed container for extended periods.</p>
                                     <Link to='/Menu/honey'><button className="buy-now">View All<div className='shape'></div> </button></Link>
                                     <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -35,6 +38,7 @@ const Menu = () => {
                                     </svg>
                                 </div>
                             </div>
+                            {/*Container-3*/}
                             <div class="coffee-container">
                                 <div class="col-12 col-md-3 col-lg-3">
                                     <div class="menu-item-card shadow p-3 mb-3">
@@ -45,9 +49,10 @@ const Menu = () => {
                                         />              
                                     </div>
                                 </div>
-                                <div class="text-container">
-                                    <h1 class="menu-card-title">Coffee</h1>
-                                    <p class="menu-card-description2">Whether you're a fan of rich and bold espresso, smooth and creamy lattes, or indulgent mochas, we have something to satisfy every coffee lover's palate. Our skilled baristas are dedicated to crafting each cup with precision and care, ensuring that every sip is a delight.</p>
+                                <div class="text-container col-8">
+                                    <h1 class="menu-card-title2">Coffee</h1>
+                                    <p class="menu-card-description2 ">Arabica coffee is one of the most popular species of coffee beans and is known for its mild flavor and aroma. Here are some potential benefits of Arabica coffee, Rich in Antioxidants, Boosts Mental Alertness, Weight Loss, Supports Heart Health,essential nutrients such as vitamins B2 (riboflavin), B3 (niacin), B5 (pantothenic acid), and magnesium.                                     
+                                    </p>
                                     <Link to='/Menu/Coffee'><button className="buy-now">View All<div className='shape'></div> </button></Link>
                                     <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
                                     <path

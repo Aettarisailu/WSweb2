@@ -19,7 +19,7 @@
     margin-top: 10px;
   }
   
-  .menu-card-description {
+  .menu-card-descriptionblack {
     font-size: 14px;
     color: #666;
   }
@@ -39,6 +39,7 @@
   
   .explore-menu-section2 {
     background-color: #f9f9f9;
+    background-size: cover;
     height: 100vh;
     margin-top: 105px;
     padding: 20px 0;

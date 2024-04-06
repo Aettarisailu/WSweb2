@@ -11,19 +11,24 @@ const Header = () => {
     };
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-                <div className="container">
-                    <Link to='/'>
-                        <img
-                            src="https://res.cloudinary.com/drevfgyks/image/upload/v1712129337/1_ozrowa.png"
-                            className="Borgani-logo"
-                            alt='image9'
-                        />
-                    </Link>
+            <nav className="navbar container-nav navbar-expand-lg navbar-light fixed-top">
+                <div className="container d-flex justify-content-between align-items-center">                    
+                    <div className='heading-container'>
+                        <Link to='/' className='heading-container'>
+                            <img
+                                src="https://res.cloudinary.com/drevfgyks/image/upload/v1712129337/1_ozrowa.png"
+                                className="Borgani-logo"
+                                alt='image9'
+                            />
+                            <h1 className='borgnanics-heading'>B organics</h1>                 
+                        </Link>                            
+                    </div>
+                    <div className='topleft-nav-container'>
                     <button className="navbar-toggler" type="button" onClick={handleNavbarToggle}>
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`}>
+                    <div>
+                    <div className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`}>                        
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <Link to='whychooseus' className="nav-link">Why Choose Us?</Link>
@@ -35,7 +40,9 @@ const Header = () => {
                                 <Link to='About' className="nav-link">About</Link>
                             </li>
                             {/* Add your other navigation items here */}
-                        </ul>
+                        </ul>                        
+                    </div>
+                    </div>
                     </div>
                 </div>
             </nav>

@@ -16,7 +16,7 @@ const Product = ({ imageSrc, name, title, description, price }) => {
         <img src={imageSrc} className="menu-item-image w-100" alt={title} />
         <h1 className="menu-card-name">{name}</h1>
         <h1 className="menu-card-title">{title}</h1>
-        <p className="menu-card-description">{description}</p>
+        <p className="menu-card-descriptionblack">{description}</p>
         <div className="product-footer">
           <p className="price">{price}</p>
           <button className="buy-button" onClick={handleBuyButtonClick}>

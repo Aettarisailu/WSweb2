@@ -99,8 +99,11 @@
 .About-details-container{
     margin: 60px;
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
+}
+.about-heading{
+    display: flex;
     align-items: flex-start;
 }
 .top-heading{
@@ -112,4 +115,9 @@
 .heading1{
     color: black;
     font-family: cursive;
+}
+.honeyimage{
+    border-radius: 20px;
+    width: 380px;
+    box-shadow: 5px 4px 25px rgba(0, 0, 0, 0.8);
 }

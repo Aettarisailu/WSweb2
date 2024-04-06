@@ -29,13 +29,13 @@ const Home = () =>{
                 </ol>
                 <div className="carousel-inner">
                    <div className="carousel-item active">
-                        <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1711635217/top-view-tasty-espresso-served-cup-with-coffee_zmhquq.jpg" className="d-block w-100" alt="one" />
+                        <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1712398163/brown-coffee-droplets-fly-around-cup-chaotic-artistic-splash_vzll43.jpg" className="d-block w-100" alt="one" />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1711635694/Screenshot_2024-03-28_195032_rdvner.png" className="d-block w-100" alt="two" />
+                        <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1712399372/backpic_tsjj7d.jpg" className="d-block w-100" alt="two" />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1711635192/brown-coffee-droplets-fly-around-cup-chaotic-artistic-splash_burhue.jpg" className="d-block w-100" alt="three" />
+                        <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1712398159/cup-coffee-with-pile-coffee-beans_qlntps.jpg" className="d-block w-100" alt="three" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -43,7 +43,7 @@ const Home = () =>{
                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 </button>
             </div>
-            <div className='explore-menu-sectionhome'>
+            <div className='explore-menu-sectionhome'>          
             <Menuview/>
             <Whychooseus/>
             <div class="healthy-food-section pt-5 pb-5">
