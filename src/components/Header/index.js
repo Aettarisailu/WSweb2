@@ -20,7 +20,7 @@ const Header = () => {
                                 className="Borgani-logo"
                                 alt='image9'
                             />
-                            <h1 className='borgnanics-heading'>B organics</h1>                 
+                            <h1 className='borgnanics-heading'>B Organics</h1>                 
                         </Link>                            
                     </div>
                     <div className='topleft-nav-container'>

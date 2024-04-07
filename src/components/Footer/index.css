@@ -75,6 +75,7 @@
     align-items: center;
 }
 .sosocialMedia-title{
+  font-size: 12px;
     margin: 10px;
     color: #959ead;
 }
@@ -102,4 +103,103 @@
 
 .contact-info-container{
   padding-right: 200px;
+}
+
+
+.bg-container {
+    background-color: #0d2436;
+    background-size: cover;
+}
+.company-container{
+  display: flex;
+  align-items: center;
+}
+.logofooter {
+    width: 80px;
+}
+.footer-comapnay-name{
+  color: rgb(223, 223, 223);
+  font-size: 15px;
+}
+.products-container{
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+.media {
+    background-color: #152c3e;
+    color: #5a7184;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.heading {
+    color: #5a7184;
+    font-size: 14px;
+}
+
+.heading2 {
+    color: #5a7184;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.para {
+    color: #5a7184;
+    font-size: 14px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+    width: 90%;
+
+}
+
+/*lll*/
+
+.bg-container {
+  background-color: #0d2436;
+  background-size: cover;
+}
+
+.logo {
+  width: 200px;
+}
+
+.media {
+  display: flex;
+  background-color: #152c3e;  
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.heading {
+  color: #5a7184;
+  font-size: 14px;
+}
+
+.heading2 {
+  color: #5a7184;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.para {
+  color: #5a7184;
+  font-size: 14px;
+}
+
+.hr-line {
+  background-color: #5a7184;
+  width: 90%;
+
 }

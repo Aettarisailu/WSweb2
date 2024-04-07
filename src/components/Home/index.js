@@ -70,7 +70,7 @@ const Home = () =>{
                             <span >Industry</span>:
                             Food and Beverage Manufacturing<br/>
                             </p>
-                            <button onClick={() => window.location.href = "https://www.youtube.com/watch?v=h1JDjiyoIM4"} className="custom-button">Watch Video</button>
+                            <button onClick={() => window.location.href = "https://www.youtube.com/watch?v=h1JDjiyoIM4"} className="custom-button">Watch</button>
                         </div>
                         </div>
                     </div>

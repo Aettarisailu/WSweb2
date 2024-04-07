@@ -44,7 +44,7 @@ const Whychooseus = () =>{
                             </div>
                         </div>
                         {/* <div class="col-12 col-md-4">
-                            <div class="wcu-card p-3 mb-3">
+                            <div class="wcu-card p-5 mb-3">
                                 <img
                                     src="https://res.cloudinary.com/drevfgyks/image/upload/v1712247420/Screenshot_2024-04-04_214622_kfuuyx.png"
                                     class="wcu-card-image"

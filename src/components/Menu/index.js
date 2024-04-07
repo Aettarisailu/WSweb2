@@ -51,7 +51,7 @@ const Menu = () => {
                                 </div>
                                 <div class="text-container col-8">
                                     <h1 class="menu-card-title2">Coffee</h1>
-                                    <p class="menu-card-description2 ">Arabica coffee is one of the most popular species of coffee beans and is known for its mild flavor and aroma. Here are some potential benefits of Arabica coffee, Rich in Antioxidants, Boosts Mental Alertness, Weight Loss, Supports Heart Health,essential nutrients such as vitamins B2 (riboflavin), B3 (niacin), B5 (pantothenic acid), and magnesium.                                     
+                                    <p class="menu-card-description2 ">Join us on a journey of discovery and indulge in the tantalizing aromas and flavors of our exceptional coffees. Whether you're a seasoned coffee connoisseur or just beginning your coffee adventure, we invite you to savor the moment with B Organics.                                     
                                     </p>
                                     <Link to='/Menu/Coffee'><button className="buy-now">View All<div className='shape'></div> </button></Link>
                                     <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">

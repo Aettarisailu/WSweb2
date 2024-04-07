@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from '../Footer';
 import './index.css';
 
 const Product = ({ imageSrc, name, title, description, price }) => {
     const handleBuyButtonClick = () => {
-        const phoneNumber = '+918688552877'; // Replace with the desired phone number
+        const phoneNumber = '+919962754292'; // Replace with the desired phone number
         const message = encodeURIComponent(`Order now: ${title}`);
         const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
         window.location.href = whatsappUrl;
@@ -29,103 +29,53 @@ const Product = ({ imageSrc, name, title, description, price }) => {
 };
 
 const Products = () => {
-  const [showAllProducts, setShowAllProducts] = useState(false);
-
-  const handleViewAll = () => {
-    setShowAllProducts(true);
-  };
-
   return (
     <div className="explore-menu-section2 pt-5 pb-5" id="exploreMenuSection">
       <div className="container mb-5">
-      <div>
         <div className="row">
           <div className="col-12">
             <h1 className="menu-section-heading">Choose Your Coffee</h1>
           </div>
-          {showAllProducts ? (
-            <>
-              {/* Render all products */}
-              <Product
-                imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1712052972/il_fullxfull.3039504513_ls23_c6mbxd.avif"
-                name="Arabica Coffee"
-                title="Arabica Coffee"
-                description="Description of Coffee 1"
-                price="RS 199"
-              />
-              <Product
-                imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1712293896/still_4x_eclrgp.png"
-                name="Robusta Coffee"
-                title="Robusta Coffee"
-                description="Description of Coffee 2"
-                price="RS 199"
-              />
-              <Product
-                imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1712293897/Screenshot_2024-02-21_213232_jlweur.png"
-                name="Chikori Coffee"
-                title="Chikori Coffee"
-                description="Description of Coffee 3"
-                price="RS 219"
-              />
-              <Product
-                imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1712293897/image-305_m47bgc.png"
-                name="Cofeee"
-                title="Coffee"
-                description="Description of Coffee 4"
-                price="RS 99"
-              />              
-            </>
-          ) : (
-            <>
-              {/* Render only first 4 products */}
-              <Product
-                imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909476/OIP_1_urk4ig.jpg"
-                name="Arabica Coffee"
-                title="Arabica Coffee"
-                description="Arabica coffee refers to the beans produced by the Coffea arabica plant, which is one of 
+          {/* Render only first 4 products */}
+          {[ // Remove this opening bracket
+            <Product
+              imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909476/OIP_1_urk4ig.jpg"
+              name="Arabica Coffee"
+              title="Arabica Coffee"
+              description="Arabica coffee refers to the beans produced by the Coffea arabica plant, which is one of 
                 the most widely cultivated species of coffee plants. "
-                price="RS 199"
-              />
-              <Product
-                imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909450/Disposable-Cup-Beverage-Hot-Cold-Drink-Coffee-Paper-Cup-with-PP-PS-Lids_ynyfph.jpg"
-                name="Robusta Coffee"
-                title="Robusta Coffee"
-                description="Robusta coffee is grown primarily in regions with warmer climates, 
+              price="RS 199"
+            />,
+            <Product
+              imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909450/Disposable-Cup-Beverage-Hot-Cold-Drink-Coffee-Paper-Cup-with-PP-PS-Lids_ynyfph.jpg"
+              name="Robusta Coffee"
+              title="Robusta Coffee"
+              description="Robusta coffee is grown primarily in regions with warmer climates, 
                 such as Africa, Southeast Asia, and parts of Latin America."
-                price="RS 199"
-              />
-              <Product
-                imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909449/Free-Paper-Coffee-Bag-Cup-Packaging-Mockup-PSD_iqqp7t.jpg"
-                name="Chicory Coffee"
-                title="Chicory Coffee"
-                description="Chicory coffee is a beverage made from roasted and ground chicory root, 
+              price="RS 199"
+            />,
+            <Product
+              imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909449/Free-Paper-Coffee-Bag-Cup-Packaging-Mockup-PSD_iqqp7t.jpg"
+              name="Chicory Coffee"
+              title="Chicory Coffee"
+              description="Chicory coffee is a beverage made from roasted and ground chicory root, 
                 often mixed with coffee beans or used as a coffee substitute."
-                price="RS 219"
-              />
-              <Product
-                imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909478/OIP_3_ju6i0g.jpg"
-                name="Cofeee"
-                title="Coffee"
-                description="Coffee is a popular beverage enjoyed by millions of people worldwide. 
+              price="RS 219"
+            />,
+            <Product
+              imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909478/OIP_3_ju6i0g.jpg"
+              name="Coffee"
+              title="Coffee"
+              description="Coffee is a popular beverage enjoyed by millions of people worldwide. 
                 It is made from roasted coffee beans, which are the seeds of the Coffea plant. "
-                price="RS 99"
-              />
-            </>
-          )}       
-          {!showAllProducts && (
-            <div className="col-12">
-              {/* Render 'View All' button */}
-              {/* <button className="custom-button" onClick={handleViewAll}>
-                View All
-              </button> */}
-            </div>
-          )}          
-        </div>
+              price="RS 99"
+            />
+          ]} 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
 
-export default Products;
+export default Products

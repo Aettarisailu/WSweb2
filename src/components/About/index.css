@@ -1,5 +1,5 @@
 .about-container {
-    background-color: #eeecec;
+    background-color: #f7f7f7;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -117,7 +117,7 @@
     font-family: cursive;
 }
 .honeyimage{
-    border-radius: 20px;
-    width: 380px;
-    box-shadow: 5px 4px 25px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.8);
 }
