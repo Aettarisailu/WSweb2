@@ -4,7 +4,7 @@ import './index.css';
 
 const Product = ({ imageSrc, name, title, description, price }) => {
     const handleBuyButtonClick = () => {
-        const phoneNumber = '+918688552877'; // Replace with the desired phone number
+        const phoneNumber = '+919962754292'; // Replace with the desired phone number
         const message = encodeURIComponent(`Order now: ${title}`);
         const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
         window.location.href = whatsappUrl;
