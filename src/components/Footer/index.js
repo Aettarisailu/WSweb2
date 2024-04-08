@@ -83,7 +83,7 @@ const Footer = () =>{
                 </div>
                 <div class="col-6 col-md-6 col-lg-3 order-2 order-lg-3 pt-5 products-container">
                     <h1 class="heading2 pb-3 pt-3">We promise you</h1>
-                    <p class="para">100% Product Quality</p>
+                    <p class="para">100% Quality Product</p>
                     <p class="para">Protect Your Details</p>
                     {/* <p class="para">Trust</p>                     */}
                     {/* <p class="para">Help</p> */}
@@ -95,8 +95,6 @@ const Footer = () =>{
             <i class="far fa-copyright">Copyrights received © 2024 Borganics.</i>
         </div>
     </div>
-
-
     </>
     )
 }

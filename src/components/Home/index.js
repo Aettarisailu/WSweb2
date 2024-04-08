@@ -67,8 +67,8 @@ const Home = () =>{
                             on the principles of quality, honesty, and purity. We clearly prove our authenticity in producing organic 
                             food products, we are providing the Agri-clinical services and certifications to the farmers by national and 
                             international certification bodies.<br/>
-                            <span >Industry</span>:
-                            Food and Beverage Manufacturing<br/>
+                            {/* <span >Industry</span>:
+                            Food and Beverage Manufacturing<br/> */}
                             </p>
                             <button onClick={() => window.location.href = "https://www.youtube.com/watch?v=h1JDjiyoIM4"} className="custom-button">Watch</button>
                         </div>

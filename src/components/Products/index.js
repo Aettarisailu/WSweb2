@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../Footer';
 import './index.css';
 
-const Product = ({ imageSrc, name, title, description, price }) => {
+const Product = ({ imageSrc, name, title, description }) => {
     const handleBuyButtonClick = () => {
         const phoneNumber = '+919962754292'; // Replace with the desired phone number
         const message = encodeURIComponent(`Order now: ${title}`);
@@ -18,7 +18,7 @@ const Product = ({ imageSrc, name, title, description, price }) => {
         <h1 className="menu-card-title">{title}</h1>
         <p className="menu-card-descriptionblack">{description}</p>
         <div className="product-footer">
-          <p className="price">{price}</p>
+          {/* <p className="price">{price}</p> */}
           <button className="buy-button" onClick={handleBuyButtonClick}>
             Buy
           </button>
@@ -54,22 +54,22 @@ const Products = () => {
                 such as Africa, Southeast Asia, and parts of Latin America."
               price="RS 199"
             />,
-            <Product
-              imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909449/Free-Paper-Coffee-Bag-Cup-Packaging-Mockup-PSD_iqqp7t.jpg"
-              name="Chicory Coffee"
-              title="Chicory Coffee"
-              description="Chicory coffee is a beverage made from roasted and ground chicory root, 
-                often mixed with coffee beans or used as a coffee substitute."
-              price="RS 219"
-            />,
-            <Product
-              imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909478/OIP_3_ju6i0g.jpg"
-              name="Coffee"
-              title="Coffee"
-              description="Coffee is a popular beverage enjoyed by millions of people worldwide. 
-                It is made from roasted coffee beans, which are the seeds of the Coffea plant. "
-              price="RS 99"
-            />
+            // <Product
+            //   imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909449/Free-Paper-Coffee-Bag-Cup-Packaging-Mockup-PSD_iqqp7t.jpg"
+            //   name="Chicory Coffee"
+            //   title="Chicory Coffee"
+            //   description="Chicory coffee is a beverage made from roasted and ground chicory root, 
+            //     often mixed with coffee beans or used as a coffee substitute."
+            //   price="RS 219"
+            // />,
+            // <Product
+            //   imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1710909478/OIP_3_ju6i0g.jpg"
+            //   name="Coffee"
+            //   title="Coffee"
+            //   description="Coffee is a popular beverage enjoyed by millions of people worldwide. 
+            //     It is made from roasted coffee beans, which are the seeds of the Coffea plant. "
+            //   price="RS 99"
+            // />
           ]} 
         </div>
       </div>

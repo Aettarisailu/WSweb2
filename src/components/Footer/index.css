@@ -13,6 +13,10 @@
     justify-content: space-evenly;
   }
   @media (max-width: 768px) {
+    .footer-main-container{
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px; 
+    }   
     .footer-section {
       flex-direction: column;
     }
@@ -162,6 +166,8 @@
 /*lll*/
 
 .bg-container {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px; 
   background-color: #0d2436;
   background-size: cover;
 }
