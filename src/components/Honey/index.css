@@ -63,11 +63,17 @@
 
 .product-footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: center;  
 }
 
 .price {
   font-weight: bold;
   color: #ff6600; /* Adjust the color to your preference */
+}
+.menu-item-card2 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100%; /* Set a fixed height */
 }

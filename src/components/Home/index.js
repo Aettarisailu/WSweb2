@@ -22,11 +22,7 @@ const Home = () =>{
             <Header/>
             {/* Bootstrap carousel */}
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-                <ol className="carousel-indicators">
-                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>
-                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                </ol>
+                {/* Remove the ol with indicators */}
                 <div className="carousel-inner">
                    <div className="carousel-item active">
                         <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1712398163/brown-coffee-droplets-fly-around-cup-chaotic-artistic-splash_vzll43.jpg" className="d-block w-100" alt="one" />
@@ -43,9 +39,10 @@ const Home = () =>{
                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 </button>
             </div>
-            <div className='explore-menu-sectionhome'>          
-            <Menuview/>
-            <Whychooseus/>
+            {/* Adjust spacing here */}
+            <div className='explore-menu-sectionhome' style={{marginTop: "-110px"}}>          
+                <Menuview/>
+                <Whychooseus/>
             <div class="healthy-food-section pt-5 pb-5">
                 <div class="container">
                     <div class="row">

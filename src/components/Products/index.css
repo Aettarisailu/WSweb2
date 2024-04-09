@@ -23,7 +23,13 @@
     font-size: 14px;
     color: #666;
   }
-  
+  .menu-item-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+  }
+    
   .custom-button {
     background-color: #007bff;
     color: #fff;

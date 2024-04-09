@@ -318,12 +318,12 @@
 
 /* Medium (Size >= 768px) */
 @media (min-width: 768px) {
-  /* #carouselExampleIndicators{
+  #carouselExampleIndicators{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%; */
+    width: 100%; }
 }
 .Menuview-container{
   margin-top: 250px;
