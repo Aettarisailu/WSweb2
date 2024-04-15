@@ -25,7 +25,7 @@ const About = () => {
                         beneficial to the environment.
                     </p>
                 </div>
-                <img src='https://res.cloudinary.com/drevfgyks/image/upload/v1712486860/Screenshot_2024-04-07_161655_a1nsfi.png' 
+                <img src='https://res.cloudinary.com/drevfgyks/image/upload/v1712420579/Screenshot_2024-04-06_214853_zedpii.png' 
                     alt='honeyimage'
                     className='honeyimage'
                 />

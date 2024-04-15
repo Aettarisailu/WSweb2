@@ -118,7 +118,8 @@
 }
 .honeyimage{
     border-radius: 10px;
-    width: 300px;
+    width: 250px;
+    margin: 18px;
     box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.8);
 }
 
