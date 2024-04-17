@@ -1,4 +1,4 @@
-import React from 'react';
+import {useEffect} from 'react';
 import Footer from '../Footer';
 import './index.css';
 
@@ -28,6 +28,9 @@ const Product = ({ imageSrc, name, title, description }) => {
 };
 
 const Products = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
   return (
     <div className="explore-menu-section2 pt-5 pb-5" id="exploreMenuSection">
       <div className="container mb-5">

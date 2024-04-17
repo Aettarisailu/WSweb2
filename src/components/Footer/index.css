@@ -1,211 +1,88 @@
-.footer-main-container{
-  background-color: #0d2436;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer-section {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;    
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  @media (max-width: 768px) {
-    .footer-main-container{
-      border-top-left-radius: 12px;
-      border-top-right-radius: 12px; 
-    }   
-    .footer-section {
-      flex-direction: column;
-    }
-  
-    .footer-section .container {
-      margin-bottom: 20px;
-    }
-  
-    .footer-section .text-center {
-      text-align: center;
-    }
-    .footer-section .socialMedia {
-      font-size: 24px; /* Adjust the font size as needed */
-      margin-bottom: 10px; /* Add some space between social media icons */
-    }
-  }
-
-  .footer-section .socialMedia {
-    font-size: 20px; /* Adjust the font size as needed */
-    margin-bottom: 5px; /* Add some space between social media icons */
-  }
-  
-  .footer-section-heading{
-    text-align: start;
-    color: #ede5e5;
-    font-family: "Roboto";
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 20px;
-    padding-right: 75px;
-  }
-  .footer-section-mail-id {
-    color: #959ead;
-    font-family: "Roboto";
-    font-weight: bold;
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  .footer-section-address {
-    color: #959ead;
-    font-family: "Roboto";
-    font-size: 14px;
-  }
-
-  .socialMedia{
-    color: white;
-    text-decoration: none;
-}
-.footer-heading{
-    text-align: center;
-    padding-top: 10px;
-}
-.socialMedia-container{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-}
 .socialMedia{
-    display: flex;
-    align-items: center;
-}
-.sosocialMedia-title{
-  font-size: 12px;
-    margin: 10px;
-    color: #959ead;
-}
-.Copyright-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    background-color: #0d2436;
-    align-self: center;
-    color: #cbcfd5;
-    padding-bottom: 25px;
-    
-    
-}
-.Quick-links{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 20px;
-}
-
-.icons{
-  width: 120px;
-}
-
-.contact-info-container{
-  padding-right: 200px;
-}
-
-
-.bg-container {
-    background-color: #0d2436;
-    background-size: cover;
-}
-.company-container{
-  display: flex;
-  align-items: center;
-}
-.logofooter {
-    width: 80px;
-}
-.footer-comapnay-name{
-  color: rgb(223, 223, 223);
-  font-size: 15px;
-}
-.products-container{
-  display: flex;
-  flex-direction: column;
-
-  align-items: flex-start;
-}
-.media {
-    background-color: #152c3e;
-    color: #5a7184;
-    text-align: center;
-    font-size: 30px;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.heading {
-    color: #5a7184;
-    font-size: 14px;
-}
-
-.heading2 {
-    color: #5a7184;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.para {
-    color: #5a7184;
-    font-size: 14px;
-}
-
-.hr-line {
-    background-color: #5a7184;
-    width: 90%;
-
-}
-
-/*lll*/
-
-.bg-container {
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px; 
-  background-color: #0d2436;
-  background-size: cover;
-}
-
-.logo {
-  width: 200px;
-}
-
-.media {
-  display: flex;
-  background-color: #152c3e;  
-  text-align: center;
-  font-size: 30px;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 20px;
   color: white;
   text-decoration: none;
 }
-
-.heading {
-  color: #5a7184;
-  font-size: 14px;
+.company-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
-
-.heading2 {
-  color: #5a7184;
-  font-size: 14px;
-  font-weight: bold;
+.whatsapp-icon{
+color: white;
+cursor: pointer;
 }
-
-.para {
-  color: #5a7184;
-  font-size: 14px;
+.company-container2{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.socialMedia{
+  display: flex;
+  align-items: center;
+}
+.company-container{
+display: flex;
+align-items: center;
+}
+.logofooter {
+  width: 80px;
+}
+.footer-comapnay-name{
+color: rgb(223, 223, 223);
+font-size: 15px;
 }
 
 .hr-line {
   background-color: #5a7184;
   width: 90%;
 
+}
+
+/*lll*/
+
+.bg-container {
+border-top-left-radius: 12px;
+border-top-right-radius: 12px; 
+background-color: #0e3500b6;
+background-size: cover;
+} 
+.media {
+display: flex;
+background-color: #000204;  
+text-align: center;
+font-size: 18px;
+margin: 10px;
+padding: 10px;
+border-radius: 20px;
+color: #a2a2a2;
+text-decoration: none;
+}
+
+.headingfooter {
+color: #a2a2a2;
+font-size: 14px;
+}
+
+.heading2 {
+color: #a2a2a2;
+font-size: 14px;
+font-weight: bold;
+}
+
+.para {
+text-decoration: none;
+color: #a2a2a2;
+font-size: 14px;
+}
+
+.hr-line {
+background-color: #a2a2a2;
+width: 90%;
+
+}
+.footer-section-mail-id{
+text-decoration: none;
 }

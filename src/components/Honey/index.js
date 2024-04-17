@@ -1,12 +1,5 @@
 
-
-
-
-
-
-
-
-import React from 'react';
+import {useEffect} from 'react';
 import Footer from '../Footer';
 import './index.css';
 
@@ -36,6 +29,9 @@ const Product = ({ imageSrc, name, title, description }) => {
 };
 
 const Products = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
   return (
     <div className="explore-menu-section2 pt-5 pb-5" id="exploreMenuSection">
       <div className="container mb-5">
@@ -51,7 +47,7 @@ const Products = () => {
             imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1712594551/jar-honey-antique-table-with-fields-flower-background_1_b1dzue.jpg"
             name="Wild Forest Honey"
             title="Wild Forest Honey"
-            description="Wild Forest Honey is collected from the natural bee hives in the forests. Honey bees collect nectar from numerous honeydew and wildflowers from the hills and forest, resulting in Wild Forest Honey. at offers an array of benefits: Builds immunity Great for skin and hair Lowers risk of heart disease"
+            description="Wild Forest Honey is collected from the natural bee hives in the forests. Honey bees collect nectar from numerous honeydew and wildflowers from the hills and forest, resulting in Wild Forest Honey. at offers an array of benefits: Builds immunity Great for skin and hair Lowers risk of heart disease."
             price="RS 199"
           />,
           <Product
@@ -59,7 +55,7 @@ const Products = () => {
             imageSrc="https://res.cloudinary.com/drevfgyks/image/upload/v1711635188/jar-berry-jam-antique-table-with-fields-flower-background_vgxbzq.jpg"
             name="Acacia Honey"
             title="Acacia Honey"
-            description="Acacia Honey is mildly floral in aroma and has a sweet delicate taste. These transparent drops of honey act as a natural sweetener.rich in antioxidants & has numerous medicinal properties. It boosts immunity, helps in healing wounds & also prevents bacterial contamination & infections"
+            description="Acacia Honey is mildly floral in aroma and has a sweet delicate taste. These transparent drops of honey act as a natural sweetener.rich in antioxidants & has numerous medicinal properties. It boosts immunity, helps in healing wounds & also prevents bacterial contamination & infections."
             price="RS 129"
           />,
           <Product

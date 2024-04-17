@@ -1,9 +1,12 @@
-import React from 'react';
+import  {useEffect} from 'react';
 import { Link } from "react-router-dom";
 // import Footer from '../Footer';
 import './index.css'; // Update the import statement to reflect the correct path to your CSS file
 
 const Menu = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return(
         <>
             <div className="explore-menu-section pb-5" id="exploreMenuSection">      
